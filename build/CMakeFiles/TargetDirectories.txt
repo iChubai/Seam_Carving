@@ -1,0 +1,3 @@
+/mnt/e/Files_All_in_One/algo_repo/SeamCarving/build/CMakeFiles/SeamCarving.dir
+/mnt/e/Files_All_in_One/algo_repo/SeamCarving/build/CMakeFiles/edit_cache.dir
+/mnt/e/Files_All_in_One/algo_repo/SeamCarving/build/CMakeFiles/rebuild_cache.dir
