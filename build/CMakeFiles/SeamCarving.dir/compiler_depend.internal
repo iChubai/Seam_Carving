@@ -293,9 +293,6 @@ CMakeFiles/SeamCarving.dir/src/main.cpp.o
  /usr/include/opencv4/opencv2/opencv.hpp
  /usr/include/opencv4/opencv2/opencv_modules.hpp
  /usr/include/opencv4/opencv2/photo.hpp
- /usr/include/opencv4/opencv2/saliency.hpp
- /usr/include/opencv4/opencv2/saliency/saliencyBaseClasses.hpp
- /usr/include/opencv4/opencv2/saliency/saliencySpecializedClasses.hpp
  /usr/include/opencv4/opencv2/stitching.hpp
  /usr/include/opencv4/opencv2/stitching/detail/blenders.hpp
  /usr/include/opencv4/opencv2/stitching/detail/camera.hpp

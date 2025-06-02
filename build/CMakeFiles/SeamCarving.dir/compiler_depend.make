@@ -292,9 +292,6 @@ CMakeFiles/SeamCarving.dir/src/main.cpp.o: /mnt/e/Files_All_in_One/algo_repo/Sea
   /usr/include/opencv4/opencv2/opencv.hpp \
   /usr/include/opencv4/opencv2/opencv_modules.hpp \
   /usr/include/opencv4/opencv2/photo.hpp \
-  /usr/include/opencv4/opencv2/saliency.hpp \
-  /usr/include/opencv4/opencv2/saliency/saliencyBaseClasses.hpp \
-  /usr/include/opencv4/opencv2/saliency/saliencySpecializedClasses.hpp \
   /usr/include/opencv4/opencv2/stitching.hpp \
   /usr/include/opencv4/opencv2/stitching/detail/blenders.hpp \
   /usr/include/opencv4/opencv2/stitching/detail/camera.hpp \
@@ -938,6 +935,8 @@ CMakeFiles/SeamCarving.dir/src/seam_carver.cpp.o: /mnt/e/Files_All_in_One/algo_r
 
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdint-least.h:
+
 /usr/include/x86_64-linux-gnu/bits/time.h:
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
@@ -1015,10 +1014,6 @@ CMakeFiles/SeamCarving.dir/src/seam_carver.cpp.o: /mnt/e/Files_All_in_One/algo_r
 /usr/include/opencv4/opencv2/stitching/warpers.hpp:
 
 /usr/include/opencv4/opencv2/stitching.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-least.h:
-
-/usr/include/opencv4/opencv2/saliency.hpp:
 
 /usr/include/opencv4/opencv2/opencv_modules.hpp:
 
@@ -1156,8 +1151,6 @@ CMakeFiles/SeamCarving.dir/src/seam_carver.cpp.o: /mnt/e/Files_All_in_One/algo_r
 
 /usr/include/c++/13/cstdint:
 
-/usr/include/opencv4/opencv2/saliency/saliencyBaseClasses.hpp:
-
 /usr/include/c++/13/cstdlib:
 
 /usr/include/c++/13/bits/sstream.tcc:
@@ -1195,8 +1188,6 @@ CMakeFiles/SeamCarving.dir/src/seam_carver.cpp.o: /mnt/e/Files_All_in_One/algo_r
 /usr/include/c++/13/bits/stl_function.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/usr/include/opencv4/opencv2/saliency/saliencySpecializedClasses.hpp:
 
 /usr/include/c++/13/bits/utility.h:
 

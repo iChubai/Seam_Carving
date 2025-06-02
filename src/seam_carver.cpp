@@ -354,10 +354,7 @@ void SeamCarver::remove_vertical_seams_optimized(int num_seams, std::function<vo
 void SeamCarver::remove_vertical_seams_forward(int num_seams, std::function<void(const cv::Mat&, int, int, const std::vector<int>&)> update_callback) {
     if (num_seams <= 0) return;
     std::cout << "使用前向能量算法移除 " << num_seams << " 条垂直 seam..." << std::endl;
-    
-    // 计算更新频率
-    const int update_frequency = std::max(1, num_seams / 10); // 至少每 10% 更新一次
-    
+    const int update_frequency = 1; // 至少每 10% 更新一次
     for (int k = 0; k < num_seams; ++k) {
         if (current_image.cols <= 1) {
             std::cout << "图像宽度太小，在 " << k << " 条 seam 后停止。" << std::endl;
@@ -371,8 +368,6 @@ void SeamCarver::remove_vertical_seams_forward(int num_seams, std::function<void
         }
         
         remove_vertical_seam(seam);
-        
-        // 定期更新显示进度
         if (update_callback && (k % update_frequency == 0 || k == num_seams - 1)) {
             update_callback(current_image, k + 1, num_seams, seam);
         }

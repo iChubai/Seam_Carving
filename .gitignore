@@ -1,1 +1,68 @@
-./build/*
+# 构建目录
+build/
+bin/
+lib/
+out/
+Seam-carving/
+
+# CMake生成文件
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+Makefile
+
+# Visual Studio生成文件
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+.vs/
+x64/
+x86/
+Debug/
+Release/
+
+# 编译的目标文件
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+
+# 临时文件
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# IDE配置文件
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.history/
+
+# 项目特定的输出
+outputs/*/
+!outputs/seam_carving_output_1748171769821508340/comparison.jpg
+temp/
+
+# Python环境(用于文档)
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# MkDocs站点目录
+site/
+
+# 其他
+.env
+.env.local
+logs/
